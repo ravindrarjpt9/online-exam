@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quiz>
+  <title>Sample Quiz (2/20/2002)</title>
+    <questions>
+    
+      <question>
+        <quizquestion>What does the following code do?</quizquestion>
+        <answer>defines a list and initializes it</answer>
+        <answer>defines a function, which does nothing</answer>
+        <answer>defines a function, which passes its parameters through</answer>
+        <answer>defines an empty class</answer>
+        <correct>1</correct>
+      </question>
+      
+      <question>
+        <quizquestion>What gets printed? Assuming python version 2.x ?</quizquestion>
+        <answer>type 'int'</answer>
+        <answer>type 'number'</answer>
+        <answer>type 'float'</answer>
+        <answer>type 'double'</answer>
+        <correct>0</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>What is the output of the following code ?</quizquestion>
+        <answer>type 'tuple'</answer>
+        <answer>type 'int'</answer>
+        <answer>type 'list'</answer>
+        <answer>type 'complex'</answer>
+        <correct>2</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>What gets printed  def f(): pass print type(f()) ?</quizquestion>
+        <answer>type 'function'</answer>
+        <answer>type 'tuple'</answer>
+        <answer>type 'NoneType'</answer>
+        <answer>type 'str'</answer>
+        <correct>2</correct>
+      </question>	
+	  
+	  <question>
+        <quizquestion>What should the below code print ?</quizquestion>
+        <answer>type 'complex'</answer>
+        <answer>type 'unicode'</answer>
+        <answer>type 'int'</answer>
+        <answer>type 'float'</answer>
+        <correct>0</correct>
+      </question>
+
+     <question>
+        <quizquestion>What is the output of the following code ?</quizquestion>
+        <answer>type 'NoneType'</answer>
+        <answer>type 'tuple'</answer>
+        <answer>type 'type'</answer>
+        <answer>type 'function'</answer>
+        <correct>3</correct>
+      </question>
+
+      <question>
+        <quizquestion>What is the output of the below program  a = [1,2,3,None,(),[],] print len(a)?</quizquestion>
+         <answer>syntax error</answer>
+        <answer>6</answer>
+        <answer>4</answer>
+        <answer>5</answer>
+        <correct>1</correct>
+      </question>	 
+
+     <question>
+        <quizquestion>What gets printed? Assuming python version 3.x ?</quizquestion>
+        <answer>type 'int'</answer>
+        <answer>type 'number'</answer>
+        <answer>type 'float'</answer>
+        <answer>type 'double'</answer>
+        <correct>2</correct>
+      </question>	
+
+     <question>
+        <quizquestion>What gets printed x = 4.5 y = 2 print x//y ?</quizquestion>
+        <answer>2.0</answer>
+        <answer>3.0</answer>
+        <answer>4.0</answer>
+        <answer>4.5</answer>
+        <correct>0</correct>
+      </question>	
+
+     <question>
+        <quizquestion>What gets printed nums = set([1,1,2,3,3,3,4]) print len(nums) ?</quizquestion>
+        <answer>1</answer>
+        <answer>2</answer>
+        <answer>4</answer>
+        <answer>7</answer>
+        <correct>2</correct>
+      </question>	 	   
+	  
+      	
+    </questions>
+</quiz>

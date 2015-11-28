@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quiz>
+  <title>Sample Quiz (2/20/2002)</title>
+    <questions>
+    
+      <question>
+        <quizquestion>How can you show an alert box using JavaScript ?</quizquestion>
+        <answer> frame.alert()</answer>
+        <answer> window.alert()</answer>
+        <answer>warning.alert()</answer>
+        <answer> authenticate.alert()</answer>
+        <correct>1</correct>
+      </question>
+      
+      <question>
+        <quizquestion> Which operator can be used to find out the data type of a Javascript variable ?</quizquestion>
+        <answer>varType</answer>
+        <answer>getType</answer>
+        <answer>showType</answer>
+        <answer>typeof</answer>
+        <correct>3</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>What is true about Javascript ?</quizquestion>
+        <answer>Javascript can be used to perform client side validation ?</answer>
+        <answer>Javascript can be used to perform server side validation</answer>
+        <answer>Javascript is an acronym for Java language</answer>
+        <answer>Javascript is an obsolete language that is not used nowadays</answer>
+        <correct>0</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>What is the relationship between Javascript and jQuery ?</quizquestion>
+        <answer>Javascript is a library of jQuery</answer>
+        <answer>jQuery is a library of Javascript</answer>
+        <answer>jQuery is an abbreviation of Javascript</answer>
+        <answer>jQuery is a database query language</answer>
+        <correct>1</correct>
+      </question>	
+	  
+	  <question>
+        <quizquestion>Which Javascript method can be used to convert a string into a number ?</quizquestion>
+        <answer>parseString()</answer>
+        <answer>parseInt()</answer>
+        <answer>parseNumber()</answer>
+        <answer>parseInteger()</answer>
+        <correct>1</correct>
+      </question>
+
+     <question>
+        <quizquestion>Inside which HTML element do we put the JavaScript ?</quizquestion>
+        <answer>script</answer>
+        <answer>javascript</answer>
+        <answer>scripting</answer>
+        <answer>js</answer>
+        <correct>0</correct>
+      </question>
+
+      <question>
+        <quizquestion>Where is the correct place to insert a JavaScript ?</quizquestion>
+        <answer>head section</answer>
+        <answer>body section</answer>
+        <answer>title section</answer>
+        <answer>both head and body section</answer>
+        <correct>0</correct>
+      </question>	 
+
+     <question>
+        <quizquestion>How can you add a comment in a JavaScript ?</quizquestion>
+        <answer>//This is a comment</answer>
+        <answer>!!This is a comment</answer>
+        <answer>@@This is a comment</answer>
+        <answer>##This is a comment</answer>
+        <correct>0</correct>
+      </question>	
+
+     <question>
+        <quizquestion>What is the correct format of JSON ?</quizquestion>
+        <answer>{"employees":[
+    {"firstName":"John", "lastName":"Doe"}, 
+    {"firstName":"Anna",	"lastName":"Smith"},
+    {"firstName":"Peter", "lastName":"Jones"}
+]}</answer>
+        <answer>{"A","B"}</answer>
+        <answer>[1:"A":"B":2:"C"]</answer>
+        <answer>[1;"A";"B";2;"C"]</answer>
+        <correct>0</correct>
+      </question>	
+
+     <question>
+        <quizquestion>Which function can be used to find out if an expression (or a variable) is true:  ?</quizquestion>
+        <answer>checkFalse()</answer>
+        <answer>bool()</answer>
+        <answer>checkTrue()</answer>
+        <answer>Boolean()</answer>
+        <correct>3</correct>
+      </question>	 	   
+	  
+      	
+    </questions>
+</quiz>

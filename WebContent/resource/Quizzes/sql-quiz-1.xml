@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quiz>
+  <title>Sample Quiz (2/20/2002)</title>
+    <questions>
+    
+      <question>
+        <quizquestion>SQL stands for </quizquestion>
+        <answer>Show Query Language</answer>
+        <answer>Structured Quantum Language</answer>
+        <answer>Simple Query Language</answer>
+        <answer>Structured Query Language</answer>
+        <correct>3</correct>
+      </question>
+      
+      <question>
+        <quizquestion>Which function is used to get number of total rows in a table ?</quizquestion>
+        <answer>all()</answer>
+        <answer>collect()</answer>
+        <answer>aggregate()</answer>
+        <answer>count()</answer>
+        <correct>3</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>What you understand by DML ?</quizquestion>
+        <answer>Data Manipulation Language</answer>
+        <answer>Data Modelling Language</answer>
+        <answer>Data Matured Language</answer>
+        <answer>Data Mining Language</answer>
+        <correct>0</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>SQL is considered as </quizquestion>
+        <answer>First Generation Language</answer>
+        <answer>Second Generation Language</answer>
+        <answer>Third Generation Language</answer>
+        <answer>Fourth Generation Language</answer>
+        <correct>3</correct>
+      </question>	
+	  
+	  <question>
+        <quizquestion>Which of the following is correct query syntax ?</quizquestion>
+        <answer>where name='quiz' select date from table</answer>
+        <answer>where found name='quiz' select date from table</answer>
+        <answer>select date from table where name='quiz'</answer>
+        <answer>select name where name='quiz'</answer>
+        <correct>2</correct>
+      </question>
+
+     <question>
+        <quizquestion>Which Join can possibly produce largest result ?</quizquestion>
+        <answer>Left Outer Join</answer>
+        <answer>Natural Join</answer>
+        <answer>Right Outer Join</answer>
+        <answer>Cross Join</answer>
+        <correct>3</correct>
+      </question>
+
+      <question>
+        <quizquestion>What does self join means ? </quizquestion>
+        <answer>Joinning a table with itself</answer>
+        <answer>Performing a right outer join with another table</answer>
+        <answer>Performing a left outer join with another table</answer>
+        <answer>Performing a full outer join with another table</answer>
+        <correct>0</correct>
+      </question>	 
+
+     <question>
+        <quizquestion>Which of the following SQL clause can be used to group related rows</quizquestion>
+        <answer>having</answer>
+        <answer>group by</answer>
+        <answer>connect</answer>
+        <answer>together</answer>
+        <correct>1</correct>
+      </question>	
+
+     <question>
+        <quizquestion>Which operator is used to perform matching ?</quizquestion>
+        <answer>like</answer>
+        <answer>similar</answer>
+        <answer>same</answer>
+        <answer>almost</answer>
+        <correct>0</correct>
+      </question>	
+
+     <question>
+        <quizquestion>which of the following a not a constraint type in SQL ?</quizquestion>
+        <answer>Primary Key</answer>
+        <answer>Foreign Key</answer>
+        <answer>Not Null</answer>
+        <answer>Put Null</answer>
+        <correct>3</correct>
+      </question>	 	   
+	  
+      	
+    </questions>
+</quiz>

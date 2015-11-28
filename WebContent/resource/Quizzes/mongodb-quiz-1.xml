@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quiz>
+  <title>Sample Quiz (2/20/2002)</title>
+    <questions>
+    
+      <question>
+        <quizquestion>MongoDB is a </quizquestion>
+        <answer>Relational Database</answer>
+        <answer>Object Relational Database</answer>
+        <answer>Graph Database</answer>
+        <answer>Document Database</answer>
+        <correct>3</correct>
+      </question>
+      
+      <question>
+        <quizquestion>What is the name of MongoDB server ?</quizquestion>
+        <answer>mongoserver</answer>
+        <answer>mongod</answer>
+        <answer>mongodb</answer>
+        <answer>mongo</answer>
+        <correct>1</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>What is the name of MongoDB client ?</quizquestion>
+        <answer>mongo</answer>
+        <answer>mongod</answer>
+        <answer>mongodb</answer>
+        <answer>mongo-client</answer>
+        <correct>0</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>Which of the following is true about MongoDB ?</quizquestion>
+        <answer>MongoDB is strict schema database</answer>
+        <answer>MongoDB is a schemaless database</answer>
+        <answer>MongoDB enforces schema design for the database</answer>
+        <answer>None of these</answer>
+        <correct>1</correct>
+      </question>	
+	  
+	  <question>
+        <quizquestion>Which of the following is equivalent to a table in MongoDB database ?</quizquestion>
+        <answer>collection</answer>
+        <answer>document</answer>
+        <answer>index</answer>
+        <answer>database</answer>
+        <correct>0</correct>
+      </question>
+
+     <question>
+        <quizquestion>Which of the following is equivalent to a tuple in MongoDB database ?</quizquestion>
+        <answer>collection</answer>
+        <answer>row</answer>
+        <answer>column</answer>
+        <answer>document</answer>
+        <correct>3</correct>
+      </question>
+
+      <question>
+        <quizquestion>Which of the following true about MongoDB ?</quizquestion>
+        <answer>You can not create index in MongoDB</answer>
+        <answer>You can only create one index in MongoDB</answer>
+        <answer>MongoDB does not support transactions</answer>
+        <answer>MongoDB does not support more than one collection in a database</answer>
+        <correct>2</correct>
+      </question>	 
+
+     <question>
+        <quizquestion>For which of the following languages MongoDB provides driver ? </quizquestion>
+        <answer>Java</answer>
+        <answer>Ruby</answer>
+        <answer>Python</answer>
+        <answer>All of the above</answer>
+        <correct>3</correct>
+      </question>	
+
+     <question>
+        <quizquestion>Which company is behind MongoDB creation ?</quizquestion>
+        <answer>Oracle</answer>
+        <answer>Microsoft</answer>
+        <answer>Open Source</answer>
+        <answer>10gen</answer>
+        <correct>3</correct>
+      </question>	
+
+     <question>
+        <quizquestion>What is the meaning of Sharding ?</quizquestion>
+        <answer>Sharding is a method for storing data on a single machine.</answer>
+        <answer>Sharding is a method for storing data across multiple machines.</answer>
+        <answer>Sharding is a technique that generates data automatically</answer>
+        <answer>None of these</answer>
+        <correct>1</correct>
+      </question>	 	   
+	  
+      	
+    </questions>
+</quiz>

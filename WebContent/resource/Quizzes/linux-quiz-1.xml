@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quiz>
+  <title>Sample Quiz (2/20/2002)</title>
+    <questions>
+    
+      <question>
+        <quizquestion> ________ command is used to count the total number of lines, words and character in a file ?</quizquestion>
+        <answer>countw</answer>
+        <answer> wcount</answer>
+        <answer>wc</answer>
+        <answer> count p</answer>
+        <correct>2</correct>
+      </question>
+      
+      <question>
+        <quizquestion> _______ command is used to remove the directory ?</quizquestion>
+        <answer>rdir</answer>
+        <answer>remove</answer>
+        <answer>rd</answer>
+        <answer>rmdir</answer>
+        <correct>3</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>________ command is used to remove files ?</quizquestion>
+        <answer>dm</answer>
+        <answer>rm</answer>
+        <answer>delete</answer>
+        <answer>erase</answer>
+        <correct>1</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>_______ hardware architectures are not supported by Red Hat ?</quizquestion>
+        <answer>SPARC</answer>
+        <answer>IBM-compatible</answer>
+        <answer>Macintosh</answer>
+        <answer>Alpha</answer>
+        <correct>2</correct>
+      </question>	
+	  
+	  <question>
+        <quizquestion>Which of the following is not a communication command ?</quizquestion>
+        <answer>grep</answer>
+        <answer>mail</answer>
+        <answer>mesg</answer>
+        <answer>write</answer>
+        <correct>0</correct>
+      </question>
+
+     <question>
+        <quizquestion> What command is used to add printing jobs to the queue ?</quizquestion>
+        <answer>lpd</answer>
+        <answer>lpr</answer>
+        <answer>lpq</answer>
+        <answer>lpc</answer>
+        <correct>1</correct>
+      </question>
+
+      <question>
+        <quizquestion>#!/bin/bash is commonly called as </quizquestion>
+        <answer>shebang</answer>
+        <answer>hashbang</answer>
+        <answer>Script Initialiser</answer>
+        <answer>1 and 2 is correct</answer>
+        <correct>3</correct>
+      </question>	 
+
+     <question>
+        <quizquestion>_____ is the world’s largest non-commercial Linux distribution </quizquestion>
+        <answer>Debian</answer>
+        <answer>Ubuntu</answer>
+        <answer>Fedora</answer>
+        <answer>Mint</answer>
+        <correct>0</correct>
+      </question>	
+
+     <question>
+        <quizquestion>Which of the following is a command in Linux ?</quizquestion>
+        <answer>w</answer>
+        <answer>x</answer>
+        <answer>t</answer>
+        <answer>All of the above</answer>
+        <correct>0</correct>
+      </question>	
+
+     <question>
+        <quizquestion>What does GNU stands for ?</quizquestion>
+        <answer>Gnu’s not Unix</answer>
+        <answer>Geek Needed Unix</answer>
+        <answer>General Unix</answer>
+        <answer>None of the Above</answer>
+        <correct>0</correct>
+      </question>	 	   
+	  
+      	
+    </questions>
+</quiz>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quiz>
+  <title>Sample Quiz (2/20/2002)</title>
+    <questions>
+    
+      <question>
+        <quizquestion>What does PHP stands for ?</quizquestion>
+        <answer>Post Hypertext Processor</answer>
+        <answer>Pre Hypertext Processor</answer>
+        <answer>Hypertext Preprocessor</answer>
+        <answer>Paper High Processor</answer>
+        <correct>2</correct>
+      </question>
+      
+      <question>
+        <quizquestion>Where does PHP scripts runs ?</quizquestion>
+        <answer>Local Client Machine</answer>
+        <answer>Server Machine</answer>
+        <answer>Any Machine having PHP processor</answer>
+        <answer>None of the above</answer>
+        <correct>2</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>Which company vendor the PHP ?</quizquestion>
+        <answer>Zend</answer>
+        <answer>Oracle</answer>
+        <answer>Microsoft</answer>
+        <answer>Its open source</answer>
+        <correct>3</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>Who invented PHP ?</quizquestion>
+        <answer>Eric Gamma</answer>
+        <answer>Rasmus Ledroff</answer>
+        <answer>E.R. Rodolf</answer>
+        <answer>Mark Henrick</answer>
+        <correct>1</correct>
+      </question>	
+	  
+	  <question>
+        <quizquestion>What is the extension of a PHP file ?</quizquestion>
+        <answer>.ppp</answer>
+        <answer>.pptx</answer>
+        <answer>.pph</answer>
+        <answer>.php</answer>
+        <correct>3</correct>
+      </question>
+
+     <question>
+        <quizquestion>How to write PHP code in a web page ?</quizquestion>
+        <answer>Inside php tag</answer>
+        <answer>Inside php-script tag</answer>
+        <answer>Inside php-code tag</answer>
+        <answer>Inside hypertext tag</answer>
+        <correct>0</correct>
+      </question>
+
+      <question>
+        <quizquestion>Which function you will use to print a "Hello World" on screen ?</quizquestion>
+         <answer>echo</answer>
+        <answer>message</answer>
+        <answer>execute</answer>
+        <answer>show</answer>
+        <correct>0</correct>
+      </question>	 
+
+     <question>
+        <quizquestion>Which function counts all the values of an array. ?</quizquestion>
+        <answer>array_count()</answer>
+        <answer>array_all()</answer>
+        <answer>array_count_values()</answer>
+        <answer>array_total()</answer>
+        <correct>2</correct>
+      </question>	
+
+     <question>
+        <quizquestion>How can you access global variables in PHP ?</quizquestion>
+        <answer>$GLOBALS array</answer>
+        <answer>$ALL array</answer>
+        <answer>$COLLECTION array</answer>
+        <answer>$VAR array</answer>
+        <correct>0</correct>
+      </question>	
+
+     <question>
+        <quizquestion>What is the default sorting order of PHP sort() function ?</quizquestion>
+        <answer>Descending Order</answer>
+        <answer>Runtime Specific </answer>
+        <answer>Ascending Order</answer>
+        <answer>Unpredictable</answer>
+        <correct>0</correct>
+      </question>	 	   
+	  
+      	
+    </questions>
+</quiz>

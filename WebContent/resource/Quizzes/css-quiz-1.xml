@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quiz>
+  <title>Sample Quiz (2/20/2002)</title>
+    <questions>
+    
+      <question>
+        <quizquestion>What does CSS stands for ?</quizquestion>
+        <answer>Cascaded simple Sheets</answer>
+        <answer>Cascaded Style Sheets</answer>
+        <answer>Covering Style Sheets</answer>
+        <answer>Corner Style Sheets</answer>
+        <correct>1</correct>
+      </question>
+      
+      <question>
+        <quizquestion>What is the purpose of using CSS ?</quizquestion>
+        <answer>To beautify the web pages</answer>
+        <answer>To perform validation</answer>
+        <answer>To execute Java code</answer>
+        <answer>To execute Javascript code</answer>
+        <correct>0</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>In how many ways we can apply CSS ?</quizquestion>
+        <answer>1</answer>
+        <answer>2</answer>
+        <answer>3</answer>
+        <answer>5</answer>
+        <correct>2</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>Which tag is used to specify CSS in the web page ?</quizquestion>
+        <answer>styler</answer>
+        <answer>styles</answer>
+        <answer>style</answer>
+        <answer>css</answer>
+        <correct>2</correct>
+      </question>	
+	  
+	  <question>
+        <quizquestion>Which property is used to set the background color of an element ?</quizquestion>
+        <answer>back-color</answer>
+        <answer>background-color</answer>
+        <answer>color</answer>
+        <answer>backgound_color</answer>
+        <correct>1</correct>
+      </question>
+
+     <question>
+        <quizquestion>Which CSS property is used to set the transparency of an image ?</quizquestion>
+        <answer>alpha</answer>
+        <answer>transparent</answer>
+        <answer>opacity</answer>
+        <answer>fade</answer>
+        <correct>2</correct>
+      </question>
+
+      <question>
+        <quizquestion>How you can use fonts that are not on available on users machine ?</quizquestion>
+        <answer>@use-font</answer>
+        <answer>@font-face</answer>
+        <answer>@font-request</answer>
+        <answer>@required-font</answer>
+        <correct>1</correct>
+      </question>	 
+
+     <question>
+        <quizquestion>How can you rotate an element using CSS3 ?</quizquestion>
+        <answer>move()</answer>
+        <answer>rotater()</answer>
+        <answer>round()</answer>
+        <answer>rotate()</answer>
+        <correct>3</correct>
+      </question>	
+
+     <question>
+        <quizquestion>Which property is used to wrap a large text ?</quizquestion>
+        <answer>adjust</answer>
+        <answer>combine</answer>
+        <answer>word-wrap</answer>
+        <answer>fill</answer>
+        <correct>2</correct>
+      </question>	
+
+     <question>
+        <quizquestion>RWD is an acronym for </quizquestion>
+        <answer>Ripple Web Design</answer>
+        <answer>Random Web Design</answer>
+        <answer>Rapid Web Design</answer>
+        <answer>Responsive Web Design</answer>
+        <correct>3</correct>
+      </question>	 	   
+	  
+      	
+    </questions>
+</quiz>
