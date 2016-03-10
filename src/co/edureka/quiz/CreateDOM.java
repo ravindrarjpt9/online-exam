@@ -21,7 +21,7 @@ public class CreateDOM {
 		    Document dom=null;
 		    File quizFile=null;
 		    
-	        quizFile=new File("/Users/ravindrarjpt9/Downloads/Online Quiz Project Using JSP Servlet_Blog/quizzes/"+test+"-quiz-1.xml");
+	        quizFile=new File("D:\\workspace\\online-exam\\WebContent\\resource\\Quizzes\\"+test+"-quiz-1.xml");
 	        System.out.println("Quiz File Absolute Path "+quizFile.getAbsolutePath());
 	         
 	   DocumentBuilderFactory dbf=DocumentBuilderFactory.newInstance();
