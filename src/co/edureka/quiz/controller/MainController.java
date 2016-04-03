@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(urlPatterns = { "/login", "/register", "/takeExam", "/logout" ,"/feedback"})
+@WebServlet(urlPatterns = { "/login", "/register", "/takeExam", "/logout" ,"/feedback","/contact"})
 public class MainController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -31,6 +31,11 @@ public class MainController extends HttpServlet {
 				applicationContextPath + "/feedback")) {
 			RequestDispatcher dispatcher = request
 					.getRequestDispatcher("/WEB-INF/jsps/feedback.jsp");
+			dispatcher.forward(request, response);
+		}  else if (request.getRequestURI().equals(
+				applicationContextPath + "/contact")) {
+			RequestDispatcher dispatcher = request
+					.getRequestDispatcher("/WEB-INF/jsps/contact.jsp");
 			dispatcher.forward(request, response);
 		} else if (request.getRequestURI().equals(
 				applicationContextPath + "/register")) {

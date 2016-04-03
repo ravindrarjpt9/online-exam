@@ -33,10 +33,10 @@ body {
    <li class=''><a href='${pageContext.request.contextPath}'><span>Home</span></a></li>
    <li><a href='${pageContext.request.contextPath}/login'><span>Login</span></a></li>
    <li><a href='${pageContext.request.contextPath}/register'><span>Register</span></a></li>
-   <li class='#'><a href='#'><span>Submit a Question</span></a></li>
+   <!-- <li class='#'><a href='#'><span>Submit a Question</span></a></li> -->
     <li><a href='${pageContext.request.contextPath}/feedback'><span>Feedback</span></a></li>
-   <li><a href='#'><span>Contribute</span></a></li>
-   <li><a href='#'><span>Contact us</span></a></li>
+   <!-- <li><a href='#'><span>Contribute</span></a></li> -->
+   <li><a href='${pageContext.request.contextPath}/contact'><span>Contact us</span></a></li>
 </ul>
 </div>
 
@@ -49,6 +49,14 @@ Don`t have an account, click here to <a href='${pageContext.request.contextPath}
 	<form name="login-form" class="login-form" action="checkLogin" method="post">
 	
 		<div class="header">
+		<% Object s = request.getAttribute("errorMessage");
+		if(s != null)
+		{
+			%>
+			<font size="2" color="red">*<%=(String)s%></font>
+			<%
+		}
+		%>
 		<h1>Login </h1>
 		<span></span>
 		</div>

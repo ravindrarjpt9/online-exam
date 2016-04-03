@@ -57,17 +57,20 @@ body {
    <li class=''><a href='${pageContext.request.contextPath}'><span>Home</span></a></li>
    <li><a href='${pageContext.request.contextPath}/login'><span>Login</span></a></li>
    <li><a href='${pageContext.request.contextPath}/register'><span>Register</span></a></li>
-   <li class='#'><a href='#'><span>Submit a Question</span></a></li>
+   <!-- <li class='#'><a href='#'><span>Submit a Question</span></a></li> -->
    <li><a href='${pageContext.request.contextPath}/feedback'><span>Feedback</span></a></li>
-   <li><a href='#'><span>Contribute</span></a></li>
-   <li><a href='#'><span>Contact us</span></a></li>
+   <!-- <li><a href='#'><span>Contribute</span></a></li> -->
+   <li><a href='${pageContext.request.contextPath}/contact'><span>Contact us</span></a></li>
 </ul>
 </div>
 
 <c:if test='${not empty sessionScope.user}'>
 
 <div style="position:absolute;top:70px;left:1100px">
+<img src="/OnlineQuiz/dowImg?id=<%=session.getAttribute("id")%>"
+ width="40" height="40" style="padding-top: -10px"/>
 Logged as <a href="#" class="button username">${sessionScope.user}</a>
+
 </div>
 
 <div style="position:absolute;top:70px;left:1300px">

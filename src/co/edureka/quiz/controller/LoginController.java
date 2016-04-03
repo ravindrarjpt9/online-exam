@@ -40,6 +40,7 @@ public class LoginController extends HttpServlet {
 		String password=request.getParameter("password");				
 		Connection con=DatabaseConnectionFactory.createConnection();		
 		ResultSet set=null;
+		String id = "";
 		int i=0;
 		try
 		{
@@ -50,17 +51,19 @@ public class LoginController extends HttpServlet {
 		 while(set.next())
 		 {
 			 i=1;
+			 id = set.getString("id");
 		 }
 		 if(i!=0)
 		 {   HttpSession session=request.getSession();
 		     session.setAttribute("user",username);
+		     session.setAttribute("id",id);
 			 RequestDispatcher rd=request.getRequestDispatcher("/WEB-INF/jsps/home.jsp");
 			 rd.forward(request, response);
 			 
 		 }
 		 else
 		 {   request.setAttribute("errorMessage","Invalid username or password");
-			 RequestDispatcher rd=request.getRequestDispatcher("/WEB-INF/jsps/home.jsp");
+			 RequestDispatcher rd=request.getRequestDispatcher("/WEB-INF/jsps/login.jsp");
 			 rd.forward(request, response);
 		 }
 		}catch(SQLException sqe){System.out.println("Error : While Fetching records from database");}

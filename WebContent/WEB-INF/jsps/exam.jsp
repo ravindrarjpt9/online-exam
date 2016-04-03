@@ -23,6 +23,10 @@ Current Question ${sessionScope.quest.questionNumber+1} / 10
 </div>
 
 
+
+
+
+
  <div style="position:absolute;width:1000px;padding:25px;
   height: 200px;border: 1px solid green ;left:100px;top:60px">
 <span>${sessionScope.quest.question}</span><br/><br/>

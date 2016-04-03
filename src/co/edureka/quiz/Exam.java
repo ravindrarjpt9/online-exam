@@ -82,7 +82,7 @@ public class Exam {
 		return this.selections;
 	}
 	
-	public int calculateResult(Exam exam){
+	public int calculateResult(Exam exam,String id, String name){
 		int totalCorrect=0;
 		Map<Integer,Integer> userSelectionsMap=exam.selections;		
 		List<Integer> userSelectionsList=new ArrayList<Integer>(10);
@@ -101,7 +101,7 @@ public class Exam {
 				totalCorrect++;
 			}
 		}
-		
+		//saveResult(id,name);
 		System.out.println("You Got "+totalCorrect+" Correct");	
 		return totalCorrect;
 	}
