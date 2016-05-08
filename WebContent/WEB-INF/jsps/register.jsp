@@ -29,13 +29,10 @@ body {
 	top:153px; /* Positioning fix for slide-in, got lazy to think up of simpler method. */
 	background: rgba(65,72,72,0.75) url('${pageContext.request.contextPath}/images/user-icon.png') no-repeat center;	
 }
-
 .pass-icon {
 	top:201px;
 	background: rgba(65,72,72,0.75) url('${pageContext.request.contextPath}/images/pass-icon.png') no-repeat center;
 }
-
-
 </style>
 <script type="text/javascript">
 function formValidation()
@@ -69,7 +66,6 @@ function formValidation()
 	
 	return true;
 }
-
 function showDialog()
 {
 	$( "#dialog" ).dialog({
@@ -115,7 +111,6 @@ function loadDate(){
        
     });
 }
-
 </script>
 </head>
 <body>

@@ -23,7 +23,6 @@
 body {
 	background: url("${pageContext.request.contextPath}/images/background.jpg");
 }
-
 </style>
 <title>Result</title>
 </head>

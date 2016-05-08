@@ -15,11 +15,13 @@ import co.edureka.quiz.CreateDOM;
 
 public class Exam {
 	Document dom;
-	public int currentQuestion=0;	
+	public int currentQuestion=0;
+	public int totalNumberOfQuestions=0;
+	public int quizDuration=0;
 	
 	
 	public Map<Integer,Integer> selections=new LinkedHashMap<Integer,Integer>();
-	public ArrayList<QuizQuestion> questionList = new ArrayList<QuizQuestion>(10);
+	public ArrayList<QuizQuestion> questionList = new ArrayList<QuizQuestion>();
 	
 	public Exam(String test) throws SAXException,ParserConfigurationException,IOException, URISyntaxException{
 		dom=CreateDOM.getDOM(test);
@@ -82,15 +84,15 @@ public class Exam {
 		return this.selections;
 	}
 	
-	public int calculateResult(Exam exam,String id, String name){
+	public int calculateResult(Exam exam){
 		int totalCorrect=0;
 		Map<Integer,Integer> userSelectionsMap=exam.selections;		
-		List<Integer> userSelectionsList=new ArrayList<Integer>(10);
+		List<Integer> userSelectionsList=new ArrayList<Integer>();
 		for (Map.Entry<Integer, Integer> entry :userSelectionsMap.entrySet()) {
 			userSelectionsList.add(entry.getValue());
 		}
 		List<QuizQuestion> questionList=exam.questionList;
-		List<Integer> correctAnswersList=new ArrayList<Integer>(10);
+		List<Integer> correctAnswersList=new ArrayList<Integer>();
 		for(QuizQuestion question: questionList){
 			correctAnswersList.add(question.getCorrectOptionIndex());
 		}
@@ -101,9 +103,13 @@ public class Exam {
 				totalCorrect++;
 			}
 		}
-		//saveResult(id,name);
+		
 		System.out.println("You Got "+totalCorrect+" Correct");	
 		return totalCorrect;
+	}
+	
+	public int getTotalNumberOfQuestions(){
+		return 0;
 	}
 
 }

@@ -36,6 +36,7 @@ public class RegistrationController extends HttpServlet {
 
     
     
+	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {		
 		Collection<Part> parts = request.getParts();
 		String resp = "/WEB-INF/jsps/regSuccess.jsp";

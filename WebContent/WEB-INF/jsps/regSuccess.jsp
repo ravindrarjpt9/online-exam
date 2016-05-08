@@ -10,8 +10,6 @@
 body {
 	background: url("${pageContext.request.contextPath}/images/background.jpg");
 }
-
-
 </style>
    <script src="script.js"></script>
    <title>TechQ Online Quiz</title>

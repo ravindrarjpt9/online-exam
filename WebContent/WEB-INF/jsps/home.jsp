@@ -34,18 +34,15 @@ body {
 	border-radius: 40px;
 	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
-
 .button, .button:hover, .button:active {
 	outline: 0 none;
 	text-decoration: none;
         color: #fff;
 }
-
 .username {
 	background-color: #2ecc71;
 	box-shadow: 0px 3px 0px 0px #239a55;
 }
-
 </style>
   
    <title>TechQ Online Quiz</title>

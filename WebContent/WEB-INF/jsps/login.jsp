@@ -17,13 +17,10 @@ body {
 	top:153px; /* Positioning fix for slide-in, got lazy to think up of simpler method. */
 	background: rgba(65,72,72,0.75) url('${pageContext.request.contextPath}/images/user-icon.png') no-repeat center;	
 }
-
 .pass-icon {
 	top:201px;
 	background: rgba(65,72,72,0.75) url('${pageContext.request.contextPath}/images/pass-icon.png') no-repeat center;
 }
-
-
 </style>
 </head>
 <body>

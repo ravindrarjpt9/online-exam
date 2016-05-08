@@ -2,6 +2,8 @@
 
 <quiz>
   <title>Sample Quiz (2/20/2002)</title>
+   <totalquizquestions>10</totalquizquestions>
+  <quizduration>10</quizduration>
     <questions>
     
       <question>
